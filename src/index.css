@@ -24,7 +24,7 @@ body{
 
 }
 
-/* .app-wrapper {
+.app-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,4 +32,4 @@ body{
   max-width: 750px;
   margin: 4rem auto 0 auto;
   padding: 2rem;
-} */
+}

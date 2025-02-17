@@ -1,7 +1,7 @@
 
 import './App.css'
 import Alert from './components/ui/Alert/Alert'
-import {Ban} from 'lucide-react';
+import { AlertTriangle, Ban, Bell, CheckCheck, Info } from "lucide-react";
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
     <div className='app-wrapper'>
       <Alert 
         type={'alert-default'} 
-        icon = {<Ban size={20}/>} 
+        icon = {<Bell size={20}/>} 
         title= {'Upgrade your plan'}>
           <p>
           Lorem ipsum <a href="/">dolor</a> sit amet consectetur adipisicing elit. Minus, iusto.
@@ -19,14 +19,14 @@ function App() {
 
       <Alert 
         type={'alert-info'} 
-        icon = {<Ban size={20}/>} 
+        icon = {<Info size={20}/>} 
         title= {'Note'}
         description= {'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, iusto.'}
       />
 
       <Alert 
         type={'alert-warning'} 
-        icon = {<Ban size={20}/>} 
+        icon = {<CheckCheck size={20}/>} 
         title= {'Your order has been processed'}
         description= {'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, iusto.'}
       />
@@ -40,8 +40,8 @@ function App() {
 
       <Alert 
         type={'alert-success'} 
-        icon = {<Ban size={20}/>} 
-        title= {'Something went wrong'}
+        icon = {<AlertTriangle size={20}/>} 
+        title= {'Tips & Tricks'}
         description= {'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, iusto.'}
       />
     </div>
